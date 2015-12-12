@@ -10,6 +10,7 @@ public class CameraController : MonoBehaviour {
 	}
 
 	void Update() {
+		/*
 		if (Input.GetMouseButtonDown(0)) {
 			dragStartPosition = Input.mousePosition;
 			return;
@@ -22,5 +23,6 @@ public class CameraController : MonoBehaviour {
 		Vector3 position = Camera.main.ScreenToViewportPoint(Input.mousePosition - dragStartPosition);
 		Vector3 moveTo = new Vector3(position.x * dragSpeed, position.y * dragSpeed, 0);
 		transform.Translate(moveTo, Space.World);
+		*/
 	}
 }
