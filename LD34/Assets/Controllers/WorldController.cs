@@ -12,8 +12,8 @@ public class WorldController : MonoBehaviour {
 	void Start() {
 		world = new World();
 
-		for (int x = 0; x < world.Width; x++) {
-			for (int y = 0; y < world.Height; y++) {
+		for (int x = 0; x < World.Width; x++) {
+			for (int y = 0; y < World.Height; y++) {
 				Tile tileDate = world.GetTileAt(x, y);
 					
 				GameObject tileGameObj = Instantiate(GroundTile);
